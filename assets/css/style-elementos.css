@@ -8,7 +8,7 @@ body{
 
 .menu{
     width: 100%;
-    height: 4rem;
+    height: 5rem;
 
     display: flex;
     position: fixed;
@@ -18,7 +18,7 @@ body{
 }
 
 .logo-menu{
-    width: 20rem;
+    width: 22rem;
     height: 4rem;
 }
 
@@ -26,21 +26,22 @@ body{
     width: 5rem;
     height: 5rem;
 
-    margin: -0.5rem 0 0 10rem;
+    margin: 0rem 0 0 10rem;
 }
 
 .botoes-menu{
     width: 50rem;
-    height: 4rem;
+    height: 5rem;
 
     display: flex;
     align-items: center;
 }
 
 .botoes-menu button{
-    height: 4rem;
+    height: 5rem;
 
     font-family: 'M PLUS Rounded 1c';
+    font-size: 1rem;
     color: rgb(164, 166, 167);
 
     border: none;
@@ -64,7 +65,7 @@ body{
     justify-content: center;
 
     border-radius: 2rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 
     transition: background-color 0.3s ease;
     background-color: transparent;
@@ -98,6 +99,7 @@ body{
     font-family: 'M PLUS Rounded 1c';
     font-size: 2.5rem;
     color: rgb(164, 166, 167);
+    z-index: 2;
 
     background: linear-gradient(to right, #ff0000,red, red, #ffff00,#410083, #410083, #23232d, #ffffff);
     -webkit-background-clip: text;
@@ -108,8 +110,10 @@ body{
     width: 97%;
     height: 28rem;
 
-    margin-top: 0rem;
+    margin-top: 3rem;
     margin-left: 1rem;
+
+    z-index: -3;
 
     display: flex;
     align-items: center;
@@ -124,14 +128,14 @@ body{
 
 .text-cinco-elementos{
     width: 100%;
-    height: 14rem;
+    height: 18rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     text-align: justify;
@@ -140,7 +144,7 @@ body{
 
 .text-cinco-elementos-um{
     width: 40rem;
-    height: 14rem;
+    height: 18rem;
 }
 
 .title-sangue{
@@ -156,6 +160,7 @@ body{
     color: white;
 
     z-index: 2;
+    margin-top: 1rem;
 
     text-shadow: 0.1rem 0.1rem 1rem red;
 }
@@ -172,13 +177,13 @@ body{
     height: 20rem;
 
     margin-top: -3rem;
-    margin-left: 14rem;
+    margin-left: 24rem;
 
     z-index: -1;
 }
 
 .text-sangue-um{
-    width: 24rem;
+    width: 25rem;
     height: 14rem;
 
     display: flex;
@@ -186,11 +191,13 @@ body{
     justify-content: center;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     text-align: justify;
     line-height: 1.2rem;
+
+    margin: 0 0 0 -1.5rem;
 }
 
 .elemento-sangue-dois{
@@ -204,10 +211,10 @@ body{
 
 .text-sangue-dois{
     width: 40rem;
-    height: 14rem;
+    height: 17rem;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     text-align: justify;
@@ -219,13 +226,15 @@ body{
     height: 4rem;
 
     display: flex;
+
+    margin-top: 1rem;
 }
 
 .title-afinidade-sangue p{
     width: 100%;
     height: 4rem;
 
-    margin: 0.5rem 0 0 18rem;
+    margin: 0.5rem 0 0 27rem;
 
     font-family: 'M Plus Rounded 1c';
     font-size: 1.6rem;
@@ -238,7 +247,7 @@ body{
 
 .text-afinidade-sangue{
     width: 100%;
-    height: 22rem;
+    height: 26rem;
 
     display: flex;
     align-items: center;
@@ -247,10 +256,10 @@ body{
 
 .text-afinidade-sangue-um{
     width: 40rem;
-    height: 22rem;
+    height: 26rem;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     text-align: justify;
@@ -268,7 +277,7 @@ body{
     width: 100%;
     height: 4rem;
 
-    margin: 1rem 0 0 18rem;
+    margin: 1rem 0 0 27rem;
 
     font-family: 'M Plus Rounded 1c';
     font-size: 1.6rem;
@@ -281,7 +290,7 @@ body{
 
 .text-rituais-sangue{
     width: 100%;
-    height: 14rem;
+    height: 17rem;
 
     display: flex;
     align-items: center;
@@ -290,10 +299,10 @@ body{
 
 .text-rituais-sangue-um{
     width: 40rem;
-    height: 14rem;
+    height: 17rem;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     text-align: justify;
@@ -302,7 +311,7 @@ body{
 
 .text-rituais-sangue-dois{
     width: 100%;
-    height: 10rem;
+    height: 13rem;
 
     display: flex;
 }
@@ -313,15 +322,15 @@ body{
 
     z-index: -1;
 
-    margin: -2rem 0 0 18rem;
+    margin: -0.5rem 0 0 27rem;
 }
 
 .text-rituais-sangue-tres{
-    width: 26rem;
-    height: 10rem;
+    width: 27rem;
+    height: 13rem;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     text-align: justify;
@@ -338,11 +347,11 @@ body{
 }
 
 .text-rituais-sangue-cinco{
-    width: 40rem;
+    width: 41rem;
     height: 10rem;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     text-align: justify;
@@ -357,7 +366,7 @@ body{
 }
 
 .title-criaturas-sangue p{
-    margin: 0rem 0 0 18rem;
+    margin: 0rem 0 0 27rem;
 
     font-family: 'M Plus Rounded 1c';
     font-size: 1.6rem;
@@ -370,20 +379,20 @@ body{
 
 .text-criaturas-sangue{
     width: 100%;
-    height: 26rem;
+    height: 26.5rem;
 }
 
 .text-criaturas-sangue-um{
-    width: 40rem;
-    height: 26rem;
+    width: 41rem;
+    height: 26.5rem;
 
-    margin: 0 0 0 18rem;
+    margin: 0 0 0 27rem;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
-    line-height: 1.6rem;
+    line-height: 1.2rem;
     text-align: justify;
 }
 
@@ -412,18 +421,18 @@ body{
 }
 
 .text-elemento-morte img{
-    margin-left: 18rem;
+    margin-left: 25rem;
     margin-top: -1rem;
 
     z-index: -1;
 }
 
 .text-elemento-morte-um{
-    width: 26rem;
+    width: 28rem;
     height: 14rem;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     line-height: 1.6rem;
@@ -441,16 +450,13 @@ body{
     width: 41rem;
     height: 46rem;
 
-    margin-top: -2rem;
-    margin-left: 18rem;
+    margin-top: 0rem;
+    margin-left: 27rem;
 
     font-family: 'Kanit';
-    font-size: 0.9375rem;
+    font-size: 1.2rem;
     color: #b7a8ff;
 
     line-height: 1.6rem;
     text-align: justify;
 }
-
-
-
