@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=M+PLUS+Rounded+1c&display=swap');
+
+body{
+    margin: 0;
+
+    background-color: #07060C;
+}
+
+.menu{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    position: fixed;
+    z-index: 2;
+
+    background-color: #010001;
+}
+
+.logo-menu{
+    width: 20rem;
+    height: 4rem;
+}
+
+.logo-menu img{
+    width: 5rem;
+    height: 5rem;
+
+    margin: -0.5rem 0 0 10rem;
+}
+
+.botoes-menu{
+    width: 50rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.botoes-menu button{
+    height: 4rem;
+
+    font-family: 'M PLUS Rounded 1c';
+    color: rgb(164, 166, 167);
+
+    border: none;
+    margin-left: 1rem;
+
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+
+.botoes-menu button:hover{
+    color: white;
+    background-color: rgb(132, 138, 138, 0.4);
+}
+
+.discord{
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+
+.discord:hover{
+    background-color: rgb(126, 123, 118, 0.3);
+}
+
+.discord img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.container{
+    width: 100%;
+    height: 350rem;
+    position: absolute;
+}
+
+.cinco-emelentos-title{
+    width: 100%;
+    height: 4rem;
+
+    margin: 6rem 0 0 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'M PLUS Rounded 1c';
+    font-size: 2.5rem;
+    color: rgb(164, 166, 167);
+
+    background: linear-gradient(to right, #ff0000,red, red, #ffff00,#410083, #410083, #23232d, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cinco-elementos-img{
+    width: 97%;
+    height: 28rem;
+
+    margin-top: 0rem;
+    margin-left: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cinco-elementos-img img{
+    width: 65%;
+
+    border-radius: 1rem;
+}
+
+.text-cinco-elementos{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+.text-cinco-elementos-um{
+    width: 40rem;
+    height: 14rem;
+}
+
+.title-sangue{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'M Plus Rounded 1c';
+    font-size: 2rem;
+    color: white;
+
+    z-index: 2;
+
+    text-shadow: 0.1rem 0.1rem 1rem red;
+}
+
+.elemento-sangue-um{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+}
+
+.elemento-sangue-um img{
+    width: 20rem;
+    height: 20rem;
+
+    margin-top: -3rem;
+    margin-left: 14rem;
+
+    z-index: -1;
+}
+
+.text-sangue-um{
+    width: 24rem;
+    height: 14rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+.elemento-sangue-dois{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-sangue-dois{
+    width: 40rem;
+    height: 14rem;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+.title-afinidade-sangue{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.title-afinidade-sangue p{
+    width: 100%;
+    height: 4rem;
+
+    margin: 0.5rem 0 0 18rem;
+
+    font-family: 'M Plus Rounded 1c';
+    font-size: 1.6rem;
+    color: white;
+
+    z-index: -1;
+
+    text-shadow: 0.1rem 0.1rem 1rem red;
+}
+
+.text-afinidade-sangue{
+    width: 100%;
+    height: 22rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-afinidade-sangue-um{
+    width: 40rem;
+    height: 22rem;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+.title-rituais-sangue{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.title-rituais-sangue p{
+    width: 100%;
+    height: 4rem;
+
+    margin: 1rem 0 0 18rem;
+
+    font-family: 'M Plus Rounded 1c';
+    font-size: 1.6rem;
+    color: white;
+
+    z-index: -1;
+
+    text-shadow: 0.1rem 0.1rem 1rem red;
+}
+
+.text-rituais-sangue{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-rituais-sangue-um{
+    width: 40rem;
+    height: 14rem;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+.text-rituais-sangue-dois{
+    width: 100%;
+    height: 10rem;
+
+    display: flex;
+}
+
+.text-rituais-sangue-dois img{
+    width: 14rem;
+    height: 14rem;
+
+    z-index: -1;
+
+    margin: -2rem 0 0 18rem;
+}
+
+.text-rituais-sangue-tres{
+    width: 26rem;
+    height: 10rem;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+.text-rituais-sangue-quatro{
+    width: 100%;
+    height: 10rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-rituais-sangue-cinco{
+    width: 40rem;
+    height: 10rem;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.2rem;
+}
+
+.title-criaturas-sangue{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+}
+
+.title-criaturas-sangue p{
+    margin: 0rem 0 0 18rem;
+
+    font-family: 'M Plus Rounded 1c';
+    font-size: 1.6rem;
+    color: white;
+
+    z-index: -1;
+
+    text-shadow: 0.1rem 0.1rem 1rem red;
+}
+
+.text-criaturas-sangue{
+    width: 100%;
+    height: 26rem;
+}
+
+.text-criaturas-sangue-um{
+    width: 40rem;
+    height: 26rem;
+
+    margin: 0 0 0 18rem;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+.title-elemento-morte{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'M Plus Rounded 1c';
+    font-size: 2rem;
+    color: white;
+
+    text-shadow: 0.1rem 0.1rem 1rem rgb(172, 172, 172);
+
+    margin-top: 2rem;
+}
+
+.text-elemento-morte{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+}
+
+.text-elemento-morte img{
+    margin-left: 18rem;
+    margin-top: -1rem;
+
+    z-index: -1;
+}
+
+.text-elemento-morte-um{
+    width: 26rem;
+    height: 14rem;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+.text-elemento-morte-dois{
+    width: 100%;
+    height: 46rem;
+
+    display: flex;
+}
+
+.text-elemento-morte-tres{
+    width: 41rem;
+    height: 46rem;
+
+    margin-top: -2rem;
+    margin-left: 18rem;
+
+    font-family: 'Kanit';
+    font-size: 0.9375rem;
+    color: #b7a8ff;
+
+    line-height: 1.6rem;
+    text-align: justify;
+}
+
+
+

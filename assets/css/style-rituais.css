@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=M+PLUS+Rounded+1c&display=swap');
+
+body{
+    margin: 0;
+
+    background-color: #07060C;
+}
+
+.menu{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    position: fixed;
+    z-index: 2;
+
+    background-color: #010001;
+}
+
+.logo-menu{
+    width: 20rem;
+    height: 4rem;
+}
+
+.logo-menu img{
+    width: 5rem;
+    height: 5rem;
+
+    margin: -0.5rem 0 0 10rem;
+}
+
+.botoes-menu{
+    width: 50rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.botoes-menu button{
+    height: 4rem;
+
+    font-family: 'M PLUS Rounded 1c';
+    color: rgb(164, 166, 167);
+
+    border: none;
+    margin-left: 1rem;
+
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+
+.botoes-menu button:hover{
+    color: white;
+    background-color: rgb(132, 138, 138, 0.4);
+}
+
+.discord{
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+
+.discord:hover{
+    background-color: rgb(126, 123, 118, 0.3);
+}
+
+.discord img{
+    width: 2rem;
+    height: 2rem;
+}
