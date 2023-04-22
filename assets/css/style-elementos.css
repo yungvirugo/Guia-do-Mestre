@@ -18,7 +18,7 @@ body{
 }
 
 .logo-menu{
-    width: 22rem;
+    width: 20rem;
     height: 4rem;
 }
 
@@ -41,7 +41,7 @@ body{
     height: 5rem;
 
     font-family: 'M PLUS Rounded 1c';
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: rgb(164, 166, 167);
 
     border: none;
@@ -82,7 +82,7 @@ body{
 
 .container{
     width: 100%;
-    height: 350rem;
+    height: 460rem;
     position: absolute;
 }
 
@@ -108,7 +108,7 @@ body{
 
 .cinco-elementos-img{
     width: 97%;
-    height: 28rem;
+    height: 31rem;
 
     margin-top: 3rem;
     margin-left: 1rem;
@@ -121,7 +121,7 @@ body{
 }
 
 .cinco-elementos-img img{
-    width: 65%;
+    width: 60%;
 
     border-radius: 1rem;
 }
@@ -140,6 +140,8 @@ body{
 
     text-align: justify;
     line-height: 1.2rem;
+
+    margin-top: 1.5rem;
 }
 
 .text-cinco-elementos-um{
@@ -271,13 +273,15 @@ body{
     height: 4rem;
 
     display: flex;
+
+    margin-top: 1rem;
 }
 
 .title-rituais-sangue p{
     width: 100%;
     height: 4rem;
 
-    margin: 1rem 0 0 27rem;
+    margin: 0rem 0 0 27rem;
 
     font-family: 'M Plus Rounded 1c';
     font-size: 1.6rem;
@@ -363,6 +367,10 @@ body{
     height: 4rem;
 
     display: flex;
+    align-items: center;
+
+
+    margin-top: 0rem;
 }
 
 .title-criaturas-sangue p{
@@ -410,7 +418,7 @@ body{
 
     text-shadow: 0.1rem 0.1rem 1rem rgb(172, 172, 172);
 
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .text-elemento-morte{
@@ -448,7 +456,7 @@ body{
 
 .text-elemento-morte-tres{
     width: 41rem;
-    height: 46rem;
+    height: 56rem;
 
     margin-top: 0rem;
     margin-left: 27rem;
@@ -459,4 +467,202 @@ body{
 
     line-height: 1.6rem;
     text-align: justify;
+}
+
+.title-afinidade-morte{
+    width: 100%;
+    height: 4rem;
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    margin-top: 0rem;
+}
+
+.title-afinidade-morte p{
+    font-family: 'M Plus Rounded 1c';
+    font-size: 1.6rem;
+    color: white;
+
+    margin-left: 27rem;
+
+    text-shadow: 0.1rem 0.1rem 1rem #acacac;
+}
+
+.text-afinidade-morte{
+    width: 100%;
+    height: 30rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-afinidade-morte-um{
+    width: 41rem;
+    height: 30rem;
+
+    font-family: 'Kanit';
+    font-size: 1.2rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+.title-rituais-morte{
+    width: 100%;
+    height: 4rem;
+
+    margin: -3rem 0 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.title-rituais-morte p{
+    font-family: 'M Plus Rounded 1c';
+    font-size: 1.6rem;
+    color: white;
+
+    margin-left: 27rem;
+
+    text-shadow: 0.1rem 0.1rem 1rem rgb(172, 172, 172);
+}
+
+.text-rituais-morte{
+    width:100%;
+    height: 14rem;
+
+    display: flex;
+}
+
+.text-rituais-morte img{
+    width: 14rem;
+    height: 14rem;
+
+    margin-top: -2rem;
+    margin-left: 25rem;
+
+    z-index: -1;
+}
+
+.text-rituais-morte-um{
+    width: 29rem;
+    height: 14rem;
+
+    font-family: 'Kanit';
+    font-size: 1.2rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+.text-rituais-morte-dois{
+    width: 100%;
+    height: 32rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: -3rem;
+}
+
+.text-rituais-morte-tres{
+    width: 41rem;
+    height: 32rem;
+
+    font-family: 'Kanit';
+    font-size: 1.2rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+.title-criaturas-morte{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+
+    margin: 0rem 0 0 0;
+}
+
+.title-criaturas-morte p{
+    font-family: 'M Plus Rounded 1c';
+    font-size: 1.6rem;
+    color: white;
+
+    margin: 0 0 0 27rem;
+
+    text-shadow: 0.1rem 0.1rem 1rem rgb(172, 172, 172);
+}
+
+.text-criaturas-morte{
+    width: 100%;
+    height: 38rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-criaturas-morte-um{
+    width: 41rem;
+    height: 38rem;
+
+    font-family: 'Kanit';
+    font-size: 1.2rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+.title-elemento-conhecimento{
+    width: 100%;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'M Plus Rounded 1c';
+    font-size: 2rem;
+    color: white;
+
+    margin: 4rem 0 0 0;
+
+    text-shadow: 0.1rem 0.1rem 1rem yellow;
+}
+
+.text-elemento-conhecimento{
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+}
+
+.text-elemento-conhecimento img{
+    width: 14rem;
+    height: 14rem;
+
+    margin: -1rem 0 0 25rem;
+    z-index: -1;
+}
+
+.text-elemento-conhecimento-um{
+    width: 29rem;
+    height: 14rem;
+
+    font-family: 'Kanit';
+    font-size: 1.2rem;
+    color: #b7a8ff;
+
+    text-align: justify;
+    line-height: 1.6rem;
 }
