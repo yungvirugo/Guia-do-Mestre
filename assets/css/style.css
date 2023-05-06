@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&family=Kanit&family=M+PLUS+Rounded+1c&family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=M+PLUS+Rounded+1c&display=swap");
+
+body {
+  margin: 0;
+
+  background-color: #07060c;
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  font-family: "Nunito Sans";
+  font-size: 1rem;
+  color: red;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+
+img  {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 5em;
+
+  display: flex;
+  position: fixed;
+  z-index: 2;
+
+  background-color: #010001;
+}
+
+main{
+  padding-top: 30px;
+}
+
+#logo-menu img {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+
+  float: left;
+
+  margin-left: 10rem;
+}
+
+#botoes-menu {
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+#botoes-menu a {
+
+  font-family: "M PLUS Rounded 1c";
+  font-size: 1.1rem;
+  color: rgb(164, 166, 167);
+
+  border: none;
+  padding: 25px 10px;
+
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+#botoes-menu a:hover {
+  color: white;
+  background-color: rgb(132, 138, 138, 0.4);
+  cursor: pointer;
+}
+
+#discord {
+  width: 3rem;
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 2rem;
+  margin-top: 1rem;
+  margin-right: 10rem;
+
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+#discord:hover {
+  background-color: rgb(126, 123, 118, 0.3);
+}
+
+#discord img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+#titulo {
+  width: 100%;
+  height: 8rem;
+
+  margin-top: 3rem;
+  border-bottom: 0.01rem solid #010001;
+
+  font-family: "Kanit";
+  font-size: 1.5rem;
+  color: white;
+  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+  line-height: 1.8rem;
+  text-shadow: 0.01rem 0.01rem 0.4rem yellow;
+  
+  margin-top: 1rem;
+}
+
+.title1 {
+  width: 20.4rem;
+
+  text-align: center;
+
+  font-family: "Chivo Mono";
+  font-size: 2rem;
+  color: white;
+
+  text-shadow: 0.1rem 0.1rem 1rem #003487;
+
+  margin: 0 auto;
+
+  margin-top: 10px;
+}
+
+.container h1 {
+  height: 4rem;
+  text-align: center;
+
+  font-family: "M Plus Rounded 1c";
+  font-size: 2.5rem;
+  color: antiquewhite;
+
+  text-shadow: 0.1rem 0.1rem 1rem #003487;
+
+  margin: 0 auto;
+}
+
+.container p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container section {
+  font-family: "Kanit";
+  font: 1rem;
+  color: white;
+
+  text-align: justify;
+  line-height: 1.6rem;
+}
+
+.lista-rituais {
+  width: 100%;
+  height: 26rem;
+
+  margin-top: -50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*rituais*/
+.container.ritual{
+  background-color: #aaa;
+  padding: 15px;
+  border-radius: 15px;
+  width: 25rem;
+
+  margin-bottom: 100px;
+  margin-left: 10px;
+
+  background-color: rgb(18, 18, 18, 0.6);
+}
+.container.ritual h2 {
+  height: 1rem;
+
+  font-family: "Nunito Sans";
+  font-size: 1rem;
+  color: white;
+
+  margin-top: 0.3rem;
+}
+.container.ritual h1 {
+  width: 100%;
+  height: 1rem;
+
+  font-family: "Chivo Mono";
+  font: 1rem;
+  color: white;
+
+  text-shadow: 0.1rem 0.1rem 1rem #003487;
+  font-size: large;
+
+  margin-top: 1rem;
+
+  text-align: left;
+}
+
+.container.ritual p {
+  width: 100%;
+
+  font-family: "Nunito Sans";
+  font-size: 0.9rem;
+  color: white;
+
+  text-align: justify;
+
+  margin-top: 0.5rem;
+}
+/*elementos*/
+.sangue  {
+  width: 4.5rem;
+  height: 1.5rem;
+
+  font-family: "Chivo Mono";
+  font-size: 0.9rem;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 0.5rem;
+  background-color: red;
+}
+
+.conhecimento {
+  width: 8rem;
+  height: 1.5rem;
+
+  font-family: "Chivo Mono";
+  font-size: 0.9rem;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 0.5rem;
+  background-color: rgb(165, 173, 12);
+}
+
+.energia {
+  width: 5rem;
+  height: 1.5rem;
+
+  font-family: "Chivo Mono";
+  font-size: 0.9rem;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 0.5rem;
+  background-color: rgb(117, 10, 135);
+}
+
+.morte {
+  width: 4.5rem;
+  height: 1.5rem;
+
+  font-family: "Chivo Mono";
+  font-size: 0.9rem;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 0.5rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.medo {
+  width: 3.4rem;
+  height: 1.5rem;
+
+  font-family: "Chivo Mono";
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 0.5rem;
+  background-color: rgb(255, 255, 255);
+}
+/*fim elementos*/
+/*fim rituais*/
+.sobre {
+  width: 100%;
+  height: 19rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1rem;
+}
+
+.sobre-text {
+  width: 50rem;
+  height: 19rem;
+}
+
+.sobre-text p {
+  font-family: "M PLUS Rounded 1c";
+  font-size: 0.9375rem;
+  color: white;
+
+  text-align: center;
+
+  line-height: 1.2rem;
+}
+
+/*elementos rituais*/
+
+.titulo-principal{
+  width: 100%;
+  height: auto;
+
+  font-family: 'Nunito sans';
+  font-size: 2.5rem;
+  color: white;
+
+  text-shadow: 0.1rem 0.1rem 1rem #003487;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo{
+  width: 100%;
+  height: auto;
+
+  font-family: 'Nunito sans';
+  font-size: 2.3rem;
+  color: white;
+
+  text-align: center;
+  text-shadow: 0.1rem 0.1rem 1rem #003487;
+
+  margin-top: 4rem;
+}
+
+.text-base{
+  width: 100%;
+  height: auto;
+}
+
+.text-v1{
+  width: 100%;
+  height: auto;
+
+  font-family: 'Kanit';
+  font-size: 1rem;
+  color: white;
+
+  line-height: 1.6rem;
+  text-align: justify;
+}
+
+.text-v2{
+  width: 100%;
+  height: auto;
+
+  font-family: 'Kanit';
+  font-size: 1rem;
+  color: white;
+
+  line-height: 1.6rem;
+  text-align: center;
+}
+
+.image-elementos{
+  width: 13rem;
+  height: 13rem;
+
+  float: left;
+}
+
+.cinco-elementos-img{
+  width: 25rem;
+  height: 15rem;
+
+  margin-left: 23rem;
+}
+
+#sangue{
+  text-shadow: 0.1rem 0.1rem 3rem rgb(255, 0, 0);
+}
+
+#conhecimento{
+  text-shadow: 0.1rem 0.1rem 3rem rgb(225, 255, 0);
+}
+
+#energia{
+  text-shadow: 0.1rem 0.1rem 3rem rgb(166, 0, 255);
+}
+
+#medo{
+  text-shadow: 0.1rem 0.1rem 3rem rgb(255, 255, 255);
+}
+
+#morte{
+  text-shadow: 0.1rem 0.1rem 3rem rgb(12, 11, 11);
+}
+
+/* fim elementos rituais*/
+
+/* base origens */
+
+.todas-origens{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: top;
+  justify-content: center;
+
+  margin-top: 1rem;
+}
+
+.base-origem{
+  width: 15rem;
+  height: auto;
+
+  margin-left: 1rem;
+}
+
+.title-base{
+  width: 100%;
+  height: auto;
+
+  font-family: 'Nunito sans';
+  font-size: 1.5rem;
+  color: white;
+
+  text-shadow: 0.1rem 0.1rem 1rem #003487;
+
+  border-bottom: 0.1rem solid white;
+}
+
+.text-base{
+  font-family: 'Kanit';
+  font-size: 0.9rem;
+  color: white;
+
+  text-align: justify;
+  line-height: 1.4rem;
+}
+
+/* fim base origens */
+
+/* Barra de Rolagem */
+
+/* Fundo que corre */
+::-webkit-scrollbar-track {
+  background-color: #010001;
+}
+
+/* Fundo que corre */
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background: #010001;
+}
+
+/* Linha que desce */
+
+::-webkit-scrollbar-thumb {
+  background: rgba(7, 7, 6, 0.3);
+  border-radius: 0.2rem;
+  box-shadow: 0.1rem 0.1rem 1.1rem 0.01rem rgb(198, 4, 14, 0.7);
+}
+/*fim rituais*/
