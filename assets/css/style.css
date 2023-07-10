@@ -11,10 +11,14 @@ p {
   margin: 0;
 }
 
-span {
+strong {
   font-family: "Nunito Sans";
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: red;
+
+  margin-left: 0.4rem;
+  text-align: left;
+  float: left;
 }
 a {
   color:white;
@@ -39,6 +43,26 @@ header {
 
 main{
   padding-top: 30px;
+}
+
+.editores{
+  color: rgb(195, 199, 201);
+  transition: color 0.2s ease;
+}
+
+.editores:hover{
+  color: white;
+}
+
+.centralizar{
+  width: 80%;
+  height: auto;
+
+  display: flex;
+  align-items: top;
+  justify-content: center;
+
+  margin: 1rem 0 0 0;
 }
 
 #logo-menu img {
@@ -68,13 +92,13 @@ main{
   border: none;
   padding: 25px 10px;
 
-  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
   background-color: transparent;
 }
 
 #botoes-menu a:hover {
   color: white;
-  background-color: rgb(132, 138, 138, 0.4);
+
   cursor: pointer;
 }
 
@@ -103,10 +127,37 @@ main{
   height: 2rem;
 }
 
+#drive {
+  width: 3rem;
+  height: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 2rem;
+  margin-top: 1rem;
+  margin-left: 91%;
+
+  position: absolute;
+
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+#drive:hover {
+  background-color: rgb(126, 123, 118, 0.3);
+}
+
+#drive img {
+  width: 2rem;
+  height: 2rem;
+}
+
 .container {
   width: 75%;
   margin: 0 auto;
-  margin-top: 75px;
+  margin-top: 5rem;
 }
 #titulo {
   width: 100%;
@@ -175,23 +226,25 @@ main{
 
 .lista-rituais {
   width: 100%;
-  height: 26rem;
-
-  margin-top: -50px;
+  height: auto;
 
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin: 0;
 }
 /*rituais*/
 .container.ritual{
-  background-color: #aaa;
-  padding: 15px;
-  border-radius: 15px;
-  width: 25rem;
 
-  margin-bottom: 100px;
-  margin-left: 10px;
+  border-radius: 1rem;
+  width: 24rem;
+  height: auto;
+
+  margin: 0 0 0 1rem;
+
+  top: 0;
+  bottom: 1;
 
   background-color: rgb(18, 18, 18, 0.6);
 }
@@ -220,7 +273,7 @@ main{
   text-align: left;
 }
 
-.container.ritual p {
+container.ritual p {
   width: 100%;
 
   font-family: "Nunito Sans";
@@ -231,6 +284,19 @@ main{
 
   margin-top: 0.5rem;
 }
+
+.text.rituais{
+  width: 100%;
+  height: auto;
+
+  font-family: "Nunito Sans";
+  font-size: 0.9rem;
+  color: white;
+
+  text-align: justify;
+  
+}
+
 /*elementos*/
 .sangue  {
   width: 4.5rem;
@@ -261,7 +327,7 @@ main{
   justify-content: center;
 
   margin-top: 0.5rem;
-  background-color: rgb(165, 173, 12);
+  background-color: rgb(150, 158, 0);
 }
 
 .energia {
@@ -337,6 +403,44 @@ main{
   text-align: center;
 
   line-height: 1.2rem;
+}
+
+.table{
+  width: 100%;
+  height: 35rem;
+
+  display: flex;
+
+
+  font-family: "M PLUS Rounded 1c";
+  color: white;
+}
+
+.com{
+  width: 33.33%;
+  height: 100%;
+}
+
+table{
+  width: 23rem;
+  text-align: center;
+
+  border-collapse: separate;
+  border-spacing: 0;
+
+  font-size: 0.9rem;
+}
+
+.tit{
+  color: #8e8a3e;
+}
+
+.tt{
+  width: 5rem;
+
+  border-spacing: none;
+  text-align: center;
+  background-color: rgb(112, 106, 106);
 }
 
 /*elementos rituais*/
