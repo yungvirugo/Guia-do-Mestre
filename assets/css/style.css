@@ -90,7 +90,7 @@ main{
 
 #botoes-menu {
 
-  margin: 0 auto;
+  margin: 0;
 
   display: flex;
   align-items: center;
@@ -739,6 +739,8 @@ table{
     display: block;
     float: center;
     margin-left: 1rem;
+
+    margin: 0;
   }
 
   #logo-menu img{
