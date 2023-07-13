@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&family=Kanit&family=M+PLUS+Rounded+1c&family=Nunito+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit&family=M+PLUS+Rounded+1c&display=swap");
+@font-face {
+  font-family: 'FontDois';
+  src: url('/assets/font/Roman_New_Times.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url('/assets/font/F-STEIN_.woff') format('woff');
+}
+@font-face {
+  font-family: 'FontUm';
+  src: url('/assets/font/SigilosDoOutroLado-Regular.ttf') format('truetype');
+}
+
 
 body {
   margin: 0;
@@ -85,7 +98,7 @@ main{
 
 #botoes-menu a {
 
-  font-family: "M PLUS Rounded 1c";
+  font-family: 'M PLUS Rounded 1c';
   font-size: 1.1rem;
   color: rgb(164, 166, 167);
 
@@ -513,8 +526,6 @@ table{
 .cinco-elementos-img{
   width: 25rem;
   height: 15rem;
-
-  margin-left: 23rem;
 }
 
 #sangue{
@@ -539,7 +550,7 @@ table{
 
 /* fim elementos rituais*/
 
-/* base origens */
+/* base  */
 
 .todas-origens{
   width: 100%;
@@ -581,6 +592,115 @@ table{
   line-height: 1.4rem;
 }
 
+.ficha.base{
+  width: 100%;
+  height: 10rem;
+}
+
+.ficha.model{
+  width: 63%;
+  height: 30rem;
+
+  border-top: 0.5rem solid #000000;
+
+  background-image: url('https://www.designi.com.br/images/preview/10126733.jpg');
+  background-repeat: repeat-x;
+  background-color: #C3ADAB;
+}
+
+.status{
+  width: 50%;
+  height: auto;
+}
+
+
+.vd-base{
+  width: 100%;
+  height: 5rem;
+
+  display: flex;
+}
+
+.name{
+  width: 60%;
+  height: 5rem;
+
+  font-family: "FontDois";
+  font-size: 1.7rem;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: left;
+
+  background-color: #A61723;
+}
+
+.vd{
+  width: 40%;
+  height: 5rem;
+
+  font-family: "MinhaFonte";
+  font-size: 2rem;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0 0rem 1rem 0rem;
+
+  background-color: #000000;
+}
+
+.title-mi{
+  width: 100%;
+  height: 2rem;
+
+  display: flex;
+  align-items: center;
+
+  font-family: 'Nunito Sans';
+  font-size: 0.8rem;
+}
+
+.base-at{
+  width: 100%;
+  height: 4rem;
+
+  display: flex;
+
+  border-top: 0.3rem solid #000000;
+}
+
+.sen{
+  width: auto;
+  height: 1.5rem;
+
+  font-family: 'Nunito Sans';
+  font-size: 1.4rem;
+  color: white;
+  
+ display: flex;
+ align-items: last baseline;
+
+  background-color: #000000;
+}
+
+.ba{
+  width: 7rem;
+  height: auto;
+
+  font-family: 'Nunito Sans';
+  font-size: 0.8rem;
+  color: black;
+
+  display: flex;
+  align-items: center;
+}
+
 /* fim base origens */
 
 /* Barra de Rolagem */
@@ -603,4 +723,137 @@ table{
   background: rgba(7, 7, 6, 0.3);
   border-radius: 0.2rem;
   box-shadow: 0.1rem 0.1rem 1.1rem 0.01rem rgb(198, 4, 14, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+
+  header{
+    width: auto;
+    height: 4rem;
+  }
+
+  #botoes-menu{
+    width: 80%;
+
+    display: block;
+    float: center;
+
+    margin-left: 1rem;
+  }
+
+  #logo-menu img{
+    margin: 0;
+
+    display: none;
+  }
+
+  #botoes-menu a{
+    font-size: 0.8rem;
+    padding: 0;
+  }
+
+  #drive{
+    width: 2rem;
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    float: right;
+  }
+
+  #drive img{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  #discord{
+    display: none;
+  }
+
+  .container{
+    width: 90%;
+  }
+
+  .titulo{
+    font-size: 1.3rem;
+  }
+
+  .sobre{
+    margin: 0;
+  }
+
+  .text-v1{
+    width: auto;
+    font-size: 0.8;
+    background-color: blue;
+  }
+
+  .text-v2{
+    font-size: 1rem;
+
+    margin-top: 10rem;
+    
+  }
+
+  .todas-origens{
+    display: block;
+  }
+
+  .base-origem{
+    width: 90%;
+  }
+
+  .text-base{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+  }
+
+  .titulo-principal{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .title-base{
+    text-shadow: 0rem 0rem rem blue;
+  }
+
+  .cinco-elementos-img{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cinco-elementos-img img{
+    margin: 0;
+  }
+
+  .com{
+    width: 10%;
+    height: auto;
+
+    display: block;
+  }
+
+  .table{
+    width: auto;
+    height: auto;
+
+    display: block;
+  }
+
+  .red{
+    font-size: 0.9rem;
+    color: red;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Estilos para telas menores que 480px */
 }
