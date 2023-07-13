@@ -734,11 +734,10 @@ table{
   }
 
   #botoes-menu{
-    width: 80%;
+    width: 70%;
 
     display: block;
     float: center;
-
     margin-left: 1rem;
   }
 
@@ -761,7 +760,12 @@ table{
     align-items: center;
     justify-content: center;
 
-    float: right;
+    margin-top: 0;
+    margin-left: 0;
+
+    position: relative;
+
+    background-color: red;
   }
 
   #drive img{
