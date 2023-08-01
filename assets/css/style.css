@@ -57,7 +57,14 @@ header {
 }
 
 main{
-  padding-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
 }
 
 .editores{
@@ -70,14 +77,14 @@ main{
 }
 
 .centralizar{
-  width: 80%;
+  width: 100%;
   height: auto;
 
   display: flex;
   align-items: top;
   justify-content: center;
 
-  margin: 1rem 0 0 0;
+  margin-top: 1rem;
 }
 
 #logo-menu img {
@@ -85,12 +92,14 @@ main{
   height: 5rem;
 
   margin-right: 10rem;
+  user-select: none;
 }
 
 #logo-menu{
   display: flex;
   align-items: center;
   justify-content: center;
+  user-select: none;
 }
 
 #botoes-menu {
@@ -131,6 +140,7 @@ main{
 
   transition: background-color 0.3s ease;
   background-color: transparent;
+  user-select: none;
 }
 
 #discord:hover {
@@ -154,6 +164,7 @@ main{
 
   transition: background-color 0.3s ease;
   background-color: transparent;
+  user-select: none;
 }
 
 #drive:hover {
@@ -174,8 +185,8 @@ main{
 }
 
 .container {
-  width: 75%;
-  margin: 0 auto;
+  width: 60%;
+
   margin-top: 5rem;
 }
 #titulo {
@@ -399,7 +410,7 @@ container.ritual p {
 /*fim elementos*/
 /*fim rituais*/
 .sobre {
-  width: 100%;
+  width: 90%;
   height: 19rem;
 
   display: flex;
@@ -429,25 +440,31 @@ container.ritual p {
   height: 35rem;
 
   display: flex;
+  align-items: center;
+  justify-content: center;
 
 
   font-family: "M PLUS Rounded 1c";
   color: white;
+
 }
 
 .com{
   width: 33.33%;
   height: 100%;
+
+  margin-left: 1rem;
+
 }
 
 table{
-  width: 23rem;
+  width: 18rem;
   text-align: center;
 
   border-collapse: separate;
   border-spacing: 0;
 
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .tit{
@@ -455,7 +472,7 @@ table{
 }
 
 .tt{
-  width: 5rem;
+  width: 4rem;
 
   border-spacing: none;
   text-align: center;
@@ -488,7 +505,7 @@ table{
   color: white;
 
   text-align: center;
-  text-shadow: 0.1rem 0.1rem 1rem #003487;
+  text-shadow: 0rem 0rem 1rem #003487;
 
   margin-top: 4rem;
 }
@@ -496,6 +513,13 @@ table{
 .text-base{
   width: 100%;
   height: auto;
+}
+
+.text.base{
+  width: 100%;
+  height: auto;
+
+  display: flex;
 }
 
 .text-v1{
@@ -508,6 +532,7 @@ table{
 
   line-height: 1.6rem;
   text-align: justify;
+
 }
 
 .text-v2{
@@ -520,17 +545,33 @@ table{
 
   line-height: 1.6rem;
   text-align: center;
+  background-color: red;
 }
 
-.image-elementos{
-  width: 13rem;
-  height: 13rem;
+.text-v3{
+  width: 81%;
+  height: auto;
 
-  float: left;
+  font-family: 'Kanit';
+  font-size: 1rem;
+  color: white;
+
+  line-height: 1.6rem;
+  text-align: justify;
+
 }
+
+.image.rpg{
+  width: 10rem;
+  height: 10rem;
+
+  margin: 0;
+  user-select: none;
+}
+
 
 .cinco-elementos-img{
-  width: 25rem;
+  width: 100%;
   height: 15rem;
 
   display: flex;
@@ -538,24 +579,60 @@ table{
   justify-content: center;
 }
 
+.cinco-elementos-img img{
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+
+
 #sangue{
-  text-shadow: 0.1rem 0.1rem 3rem rgb(255, 0, 0);
+  text-shadow: 0rem 0rem 1rem rgb(255, 0, 0);
 }
 
 #conhecimento{
-  text-shadow: 0.1rem 0.1rem 3rem rgb(225, 255, 0);
+  text-shadow: 0rem 0rem 1rem rgb(225, 255, 0);
 }
 
 #energia{
-  text-shadow: 0.1rem 0.1rem 3rem rgb(166, 0, 255);
+  text-shadow: 0rem 0rem 1rem rgb(166, 0, 255);
 }
 
 #medo{
-  text-shadow: 0.1rem 0.1rem 3rem rgb(255, 255, 255);
+  text-shadow: 0rem 0rem 1rem rgb(255, 255, 255);
 }
 
 #morte{
-  text-shadow: 0.1rem 0.1rem 3rem rgb(12, 11, 11);
+  text-shadow: 0rem 0rem 1rem rgb(45, 43, 43);
+}
+
+
+#sangues{
+  text-shadow: 0rem 0rem 1rem rgb(255, 0, 0);
+  font-style: italic;
+}
+
+#conhecimentos{
+  text-shadow: 0rem 0rem 1rem rgb(225, 255, 0);
+  font-style: italic;
+}
+
+#energias{
+  text-shadow: 0rem 0rem 1rem rgb(166, 0, 255);
+  font-style: italic;
+}
+
+#medos{
+  text-shadow: 0rem 0rem 1rem rgb(255, 255, 255);
+  font-style: italic;
+}
+
+#mortes{
+  text-shadow: 0rem 0rem 1rem rgb(45, 43, 43);
+  font-style: italic;
 }
 
 /* fim elementos rituais*/
@@ -588,7 +665,7 @@ table{
   font-size: 1.5rem;
   color: white;
 
-  text-shadow: 0.1rem 0.1rem 1rem #003487;
+  text-shadow: 0rem 0rem 1rem #003487;
 
   border-bottom: 0.1rem solid white;
 }
@@ -743,6 +820,10 @@ table{
     height: 4rem;
   }
 
+  #titul{
+    margin-top: 1rem;
+  }
+
   #botoes-menu{
     width: 70%;
 
@@ -757,6 +838,7 @@ table{
     margin: 0;
 
     display: none;
+    user-select: none;
   }
 
   #botoes-menu a{
@@ -798,7 +880,10 @@ table{
   }
 
   .sobre{
+    width: 100%;
+    height: auto;
     margin: 0;
+
   }
 
   .text-v1{
@@ -809,7 +894,9 @@ table{
   .text-v2{
     font-size: 1rem;
 
-    margin-top: 10rem;
+    width: 100%;
+
+    margin-top: 1rem;
     
   }
 
@@ -832,21 +919,10 @@ table{
     text-align: center;
   }
 
-  .title-base{
-    text-shadow: 0rem 0rem rem blue;
-  }
-
   .cinco-elementos-img{
     width: 100%;
     height: auto;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .cinco-elementos-img img{
-    margin: 0;
   }
 
   .com{
@@ -869,12 +945,15 @@ table{
   }
 
   .container.ritual{
+    width: 100%;
     display: block;
-    margin-left: 0.5rem;
+    margin: 0;
   }
 
   .lista-rituais{
     display: block;
+
+    margin-left: 0;
   }
 
   .main{
@@ -883,10 +962,35 @@ table{
 
   .centralizar{
     display: block;
+    margin-left: 0;
   }
 
   .links{
     margin-left: 0;
+  }
+
+  .um.por{
+    width: auto;
+  }
+
+  .text.base{
+    display: block;
+  }
+
+  .text-v3{
+    width: 100%;
+  }
+
+  .image.rpg{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .title-base p{
+   margin-left: 5rem;
   }
 }
 
