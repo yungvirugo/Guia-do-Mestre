@@ -418,6 +418,7 @@ container.ritual p {
   justify-content: center;
 
   margin-top: 1rem;
+  margin: auto;
 }
 
 .sobre-text {
@@ -989,3 +990,4 @@ table{
 @media screen and (max-width: 480px) {
   /* Estilos para telas menores que 480px */
 }
+
